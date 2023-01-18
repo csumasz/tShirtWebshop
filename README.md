@@ -37,7 +37,7 @@ valamint attól függően, hogy lehet-e teljesíteni a rendelését, vagy nem az
 időpontjáról.
 A teljesíthető megrendeléseknél az x Ft helyére a teljes rendelés értékét kell beírni.
 
-4. Készítse el a beszerzes.csv állományt, ami beszerzést végző csapat számára készül, 
+    4. Készítse el a beszerzes.csv állományt, ami beszerzést végző csapat számára készül, 
 és azt tartalmazza, hogy egy-egy termékből legalább mekkora a mennyiséget kell 
 beszerezni ahhoz, hogy a „várakozó” státuszba került rendeléseket teljesíteni 
 lehessen. Az állomány tartalmazza a termék kódját, és a szükséges mennyiséget.
