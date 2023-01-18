@@ -60,4 +60,4 @@ o mennyiség: 100 pixel,
 o nettó ár: 100 pixel,
 o ÁFA százalék: 50 pixel,
 o bruttó ár: 100 pixel
- Képek magassága: 75 pixe
+ Képek magassága: 75 pixel
