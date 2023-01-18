@@ -48,7 +48,7 @@ Az oldal elkészítése során törekedjen arra, hogy a formázások ne a HTML f
 kerüljenek, hanem egy stílus állományba.
 Az oldal elkészítéséhez a baseball.png, a bogre.png és a polo.png állományokra lesz 
 szüksége.
-Minta:
+
 Információk az oldal elkészítéséhez:
  Befoglaló keret: középre igazított, háttérszíne sötét szürke, szélessége: 800 pixel.
  A „Megrendelés részletek” szöveg: 1-es szintű címsor, középre igazított, 18 pontos
