@@ -24,6 +24,7 @@ mennyiségben raktáron vannak-e.
 • Ha igen, akkor a megrendelés teljesíthető, és a raktár készletet csökkenteni kell. 
 • Ha egy rendelés bármelyik tétele nem teljesíthető, akkor a teljes megrendelés 
 „várakozó” státuszba kerül, egyik tétel esetében sincs készlet csökkentés.
+
 Feladatok: 
     1. Tárolja el a fájlok tartalmát olyan adatszerkezetben, amivel a további feladatok 
 megoldhatók.
