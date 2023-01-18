@@ -1,9 +1,10 @@
 # tShirtWebshop
 This is a webshop task.
-1. feladat Összesen: 70 pont
+1. feladat
 Készítsen programot az alábbi feladatra az Ön által tanult programozási nyelven!
 Az elkészítendő program feladata, egy sportklub rajongói weboldalára egy hétvége alatt 
 beérkezett megrendelések feldolgozása.
+
 A webshop által árult termékek listáját és a pillanatnyi készletet a raktar.csv állomány 
 tartalmazza. A megrendelések a rendeles.csv állományban találhatók.
 A raktar.csv állomány UTF-8-as kódolással, pontosvesszővel elválasztva tartalmazza a 
@@ -12,7 +13,8 @@ Az első érték a termék kódja, amit a neve és az ára követ. A sor végén
 mennyisége található.
 Pl.: A P001;Poló L-es;1899;10 sor jelentése: az L-es póló termékkódja: P001, ára 1899 Ft, 
 és jelenleg 10 darab van belőle raktáron.
-A rendeles.csv állomány kódolása szintén UTF-8-as. Minta:
+
+A rendeles.csv állomány kódolása szintén UTF-8-as.
 A fájlban két típusú sor van: a megrendeléssel kapcsolatos adatok, ezeket a sor elején 
 található „M” betű jelzi, a másik a rendeléshez tartozó tételek, amit a sor eleji „T” betű 
 jelez.
@@ -40,7 +42,7 @@ valamint attól függően, hogy lehet-e teljesíteni a rendelését, vagy nem az
  A rendelése függő állapotba került. Hamarosan értesítjük a szállítás 
 időpontjáról.
 A teljesíthető megrendeléseknél az x Ft helyére a teljes rendelés értékét kell beírni.
-Minta: 
+
 4. Készítse el a beszerzes.csv állományt, ami beszerzést végző csapat számára készül, 
 és azt tartalmazza, hogy egy-egy termékből legalább mekkora a mennyiséget kell 
 beszerezni ahhoz, hogy a „várakozó” státuszba került rendeléseket teljesíteni 
@@ -50,14 +52,13 @@ T 54 213 05/1/1
 T 4/5
 T 54 213 05/1/1
 T 5/5
-2. feladat Összesen: 30 pont
+2. feladat 
 Készítse el az első feladatban szerepelő weblaphoz kapcsolódóan egy rendelés 
 részleteit tartalmazó oldalt.
 Az oldal elkészítése során törekedjen arra, hogy a formázások ne a HTML fájlba 
 kerüljenek, hanem egy stílus állományba.
-Az oldal elkészítéséhez a baseball.png, a bogre.png és a polo.png állományokra lesz 
-szüksége.
-Minta:
+
+
 Információk az oldal elkészítéséhez:
  Befoglaló keret: középre igazított, háttérszíne sötét szürke, szélessége: 800 pixel.
  A „Megrendelés részletek” szöveg: 1-es szintű címsor, középre igazított, 18 pontos
