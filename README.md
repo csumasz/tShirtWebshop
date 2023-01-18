@@ -26,18 +26,17 @@ mennyiségben raktáron vannak-e.
 „várakozó” státuszba kerül, egyik tétel esetében sincs készlet csökkentés.
 
 Feladatok: 
-    1. Tárolja el a fájlok tartalmát olyan adatszerkezetben, amivel a további feladatok 
+1. Tárolja el a fájlok tartalmát olyan adatszerkezetben, amivel a további feladatok 
 megoldhatók.
-    2. Készítse el a rendelések feldolgozását a leírt folyamatnak megfelelően
-    3. Készítse el a levelek.csv fájlt, amiben minden megrendelő e-mail címe szerepel, 
+2. Készítse el a rendelések feldolgozását a leírt folyamatnak megfelelően
+3. Készítse el a levelek.csv fájlt, amiben minden megrendelő e-mail címe szerepel, 
 valamint attól függően, hogy lehet-e teljesíteni a rendelését, vagy nem az alábbi 
 üzenetek valamelyike: 
  A rendelését két napon belül szállítjuk. A rendelés értéke: x Ft
  A rendelése függő állapotba került. Hamarosan értesítjük a szállítás 
 időpontjáról.
 A teljesíthető megrendeléseknél az x Ft helyére a teljes rendelés értékét kell beírni.
-
-    4. Készítse el a beszerzes.csv állományt, ami beszerzést végző csapat számára készül, 
+4. Készítse el a beszerzes.csv állományt, ami beszerzést végző csapat számára készül, 
 és azt tartalmazza, hogy egy-egy termékből legalább mekkora a mennyiséget kell 
 beszerezni ahhoz, hogy a „várakozó” státuszba került rendeléseket teljesíteni 
 lehessen. Az állomány tartalmazza a termék kódját, és a szükséges mennyiséget.
