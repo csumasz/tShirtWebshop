@@ -1,69 +1,61 @@
-# tShirtWebshop
-This is a webshop task.
-1. feladat
-Készítsen programot az alábbi feladatra az Ön által tanult programozási nyelven!
-Az elkészítendő program feladata, egy sportklub rajongói weboldalára egy hétvége alatt 
-beérkezett megrendelések feldolgozása.
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-A webshop által árult termékek listáját és a pillanatnyi készletet a raktar.csv állomány 
-tartalmazza. A megrendelések a rendeles.csv állományban találhatók.
-A raktar.csv állomány UTF-8-as kódolással, pontosvesszővel elválasztva tartalmazza a 
-készleten lévő termékeket: 
-Az első érték a termék kódja, amit a neve és az ára követ. A sor végén az aktuális készlet 
-mennyisége található.
-Pl.: A P001;Poló L-es;1899;10 sor jelentése: az L-es póló termékkódja: P001, ára 1899 Ft, 
-és jelenleg 10 darab van belőle raktáron.
+<p align="center">
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
+</p>
 
-A rendeles.csv állomány kódolása szintén UTF-8-as.
-A fájlban két típusú sor van: a megrendeléssel kapcsolatos adatok, ezeket a sor elején 
-található „M” betű jelzi, a másik a rendeléshez tartozó tételek, amit a sor eleji „T” betű 
-jelez.
- A „M”-el jelölt sor felépítése: 
- A „T”-vel jelölt sor felépítése
-T 54 213 05/1/1
-T 3/5
-A rendeles.csv állományban a megrendelések sorban vannak, azaz a megrendelés után 
-mindig az ahhoz tartozó tételek találhatók. 
-A rendelés feldolgozás folyamata: 
-• A megrendelések feldolgozása a fájlból soronként történik. 
-• Minden rendelésnél le kell ellenőrizni, hogy a megrendelt termékek a megrendelt 
-mennyiségben raktáron vannak-e. 
-• Ha igen, akkor a megrendelés teljesíthető, és a raktár készletet csökkenteni kell. 
-• Ha egy rendelés bármelyik tétele nem teljesíthető, akkor a teljes megrendelés 
-„várakozó” státuszba kerül, egyik tétel esetében sincs készlet csökkentés.
-Feladatok: 
-  1. Tárolja el a fájlok tartalmát olyan adatszerkezetben, amivel a további feladatok 
-megoldhatók.
-  2. Készítse el a rendelések feldolgozását a leírt folyamatnak megfelelően
-  3. Készítse el a levelek.csv fájlt, amiben minden megrendelő e-mail címe szerepel, 
-valamint attól függően, hogy lehet-e teljesíteni a rendelését, vagy nem az alábbi 
-üzenetek valamelyike: 
- A rendelését két napon belül szállítjuk. A rendelés értéke: x Ft
- A rendelése függő állapotba került. Hamarosan értesítjük a szállítás 
-időpontjáról.
-A teljesíthető megrendeléseknél az x Ft helyére a teljes rendelés értékét kell beírni.
+## About Laravel
 
-  4. Készítse el a beszerzes.csv állományt, ami beszerzést végző csapat számára készül, 
-és azt tartalmazza, hogy egy-egy termékből legalább mekkora a mennyiséget kell 
-beszerezni ahhoz, hogy a „várakozó” státuszba került rendeléseket teljesíteni 
-lehessen. Az állomány tartalmazza a termék kódját, és a szükséges mennyiséget.
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-2. feladat 
-Készítse el az első feladatban szerepelő weblaphoz kapcsolódóan egy rendelés 
-részleteit tartalmazó oldalt.
-Az oldal elkészítése során törekedjen arra, hogy a formázások ne a HTML fájlba 
-kerüljenek, hanem egy stílus állományba.
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-Információk az oldal elkészítéséhez:
- Befoglaló keret: középre igazított, háttérszíne sötét szürke, szélessége: 800 pixel.
- A „Megrendelés részletek” szöveg: 1-es szintű címsor, középre igazított, 18 pontos
- A rendelés száma: 2-es színtű címsor, középre igazított, dőlt stílus.
- Tábálázat oszlopainak szélessége:
-o kép: 120 pixel,
-o termék neve: 200 pixel,
-o mennyiség: 100 pixel,
-o nettó ár: 100 pixel,
-o ÁFA százalék: 50 pixel,
-o bruttó ár: 100 pixel
- Képek magassága: 75 pixel
+## Learning Laravel
+
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+
+## Laravel Sponsors
+
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+
+### Premium Partners
+
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Cubet Techno Labs](https://cubettech.com)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[Many](https://www.many.co.uk)**
+- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
+- **[DevSquad](https://devsquad.com)**
+- **[OP.GG](https://op.gg)**
+
+## Contributing
+
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+
+## Code of Conduct
+
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+
+## Security Vulnerabilities
+
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+
+## License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
