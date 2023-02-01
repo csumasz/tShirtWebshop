@@ -1,3 +1,5 @@
+Ez egy szoftverfejlesztő képzés vizsgafeladata.
+
 1. feladat
 Készítsen programot az alábbi feladatra az Ön által tanult programozási nyelven!
 Az elkészítendő program feladata, egy sportklub rajongói weboldalára egy hétvége alatt 
